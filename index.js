@@ -1,4 +1,4 @@
-export function testFunction(input1, input2) {
+function testFunction(input1, input2) {
     console.log('input1', input2);
     console.log('input2', input2);
     return {
@@ -6,3 +6,7 @@ export function testFunction(input1, input2) {
         "value2": input2 * 2
     }
 }
+
+module.exports = {
+    testFunction
+};
